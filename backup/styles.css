@@ -1,14 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
+
 body {
     margin: 0px auto;
      max-width: 1280px;
 }
+
+
 .header {
+    height:90px;
     width:1280px;
-    margin-top: 20px;
+    margin-top: 28px;
     background-color: #ffffff;
+    background-image: url('img/your-party.png');
+    background-repeat: no-repeat;
+   
+    
 }
 .floatright {
     float:right;
@@ -30,26 +39,20 @@ body {
     font-family: 'Alegreya', serif;
      text-shadow: 2px 2px grey;
      position: relative;
-     top:15px;
 }
 h1 {
-    font-size: 72px;
-    font-weight: bold;
-   top:10px;
-   text-align: center;
-  
+    font-size: 76px;
 }
 h2 {
-    font-size: 40px;
-    margin-top:2px;
+    font-size: 26px;
 }
 .padding {
-padding:1%;
+padding:40px;
 text-align: center;
-position:relative;
 }
 button {
     background-color: #407305;
+    width: 222px;
     height:67px;
     border: none;
     color: white;
@@ -63,50 +66,49 @@ button {
     font-weight: bold;
 }
 .icons {
-  background-color: #173493;
-    text-align: center;
-    padding: 1em 0;
+    background-color: #173493;
+    width: 1280px;
+    height:130px;
+   margin: 0px auto;
+   display: flex;
+   flex-direction: row;
 }
 .feature {
     text-align:center;
+    margin:0px auto;
     font-family: 'Alegreya', serif;
     color:white;
-    display: inline-block;
-    padding: 0 1em;
-}
+    }
 .float {
     background-color: white;
 }
 .floatleft {
     float:left;
-    width:32.5%;
-    position: relative;
-    line-height: 0;
-    margin-right: 1.25%;
-    margin-bottom: 1.25%;
-}
-.last {
-    margin-right: 0;
+    width:32%;
+    margin:2px;
 }
 .img {
+    width:370px;
+    height:298px;
+     margin:4px;
     z-index: 0;
-    width: 100%;
+    position:relative;
 }
 .zindex {
     z-index:1;
     position:absolute;
-    background-color: rgba(00, 00, 00, 0.5);
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    bottom: 0;
-    padding: 0.5em 1.5em;
-    width: 100%;
-    line-height: 1.2em;
+   margin-top:-60px;
+   background-color: rgba(00, 00, 00, 0.5);
+   width:370px;
+   height:50px;
+   color:white;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+
 }
 .pictures {
-    max-width: 1129px;
-    margin: 0px auto; 
+    width: 1129px;
+    margin:0px auto; 
 }
 
 .bottom {
@@ -116,15 +118,14 @@ button {
      
 }
 .textbottom {
-display: inline-block;
+   display: inline-block;
    width:396px;
    height:257px;
    color:white;
    font-size: 16px;
    font-family: 'Open Sans', sans-serif;
+padding:20px;
 line-height:1.5;
-padding:0px 10px 10px 12px;
-
 }
 .titlebottom {
     font-family: 'Open Sans', sans-serif;
@@ -134,7 +135,18 @@ padding:0px 10px 10px 12px;
     font-family: 'Alegreya', serif;
     color:white;
     padding-left:75px;
-    padding-top:20px;
     font-size:40px;
 }
 
+.pokus {
+    position: relative;
+    border: 1px black solid;
+    height: 3em;
+}
+
+.pokus span {
+    border: 1px black solid;
+    position: absolute;
+    bottom: 0;
+    right:30px;
+}
