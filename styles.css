@@ -4,6 +4,8 @@
 body {
     margin: 0px auto;
      max-width: 1280px;
+     background-color: white;
+       padding-bottom: 20px;
 }
 .header {
     width:1280px;
@@ -49,15 +51,15 @@ text-align: center;
 position:relative;
 }
 button {
-    background-color: #407305;
+    background-color:#345E03;
     height:67px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Alegreya', serif;
     border-radius: 5%;
     font-weight: bold;
@@ -113,18 +115,16 @@ button {
     margin-top:45px;
     background-color: #173493;
     padding:20px;
-     
 }
 .textbottom {
 display: inline-block;
-   width:396px;
+   width:400px;
    height:257px;
    color:white;
    font-size: 16px;
    font-family: 'Open Sans', sans-serif;
 line-height:1.5;
-padding:0px 10px 10px 12px;
-
+padding-left:10px;
 }
 .titlebottom {
     font-family: 'Open Sans', sans-serif;
@@ -135,6 +135,6 @@ padding:0px 10px 10px 12px;
     color:white;
     padding-left:75px;
     padding-top:20px;
-    font-size:40px;
+    font-size:42px;
 }
 
